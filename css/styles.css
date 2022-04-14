@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	background-color: #E4F5F9;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	color: #66BFBF;
+	font-weight: normal;
+}
+.middle-container {
+	position: relative;
+}
+.profile {
+	width: 25%;
+	margin: auto;
+	margin-top: 50px;
+}
+.skill-image {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.chilli-image {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+.bottom-container {
+	position: relative;
+}
+.skills {
+	/*text-align: center;*/
+}
+.contact-me {
+	text-align: center;
+}
+.bottom-container {
+	position: relative;
+	text-align: center;
+	background-color: #E4F5F9;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+#name {
+	/*margin: 0;*/
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	margin: 25px auto 0 auto;
+	color: #66BFBF;
+	font-weight: normal;
+}
+.top-container {
+	position: relative;
+	background-color: #E4F5F9 ;
+	text-align: center;
+	padding-top: 80px;
+}
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.mountain {
+	padding-top: 20px;
+}
+.about-me {
+	color: #40514E;
+}
+hr {
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 5px;
+    background-color: white;
+    border-color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+h2 {
+	font-weight: normal;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 24px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.bottom-container {
+	position: relative;
+	background-color: #66BFBF;
+	margin-top: 50px;
+}
+.copy-right {
+	margin-bottom: 0;
+	color: #EAF6F6;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.footer-link {
+	position: relative;
+	text-decoration: none;
+	color: #11999E;
+	top: 40px;
+	margin: 30px;
+}
+/* 90px = 100% = 16px -  90(px) / 16 * 100 - 562.5%*/
+/*1em = 16px or 100%*/
+/*90px in em = 90 / 16 = 5.625em*/
+/*rem overwrites everything and sets the font size to specified*/
